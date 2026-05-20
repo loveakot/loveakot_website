@@ -25,10 +25,10 @@ function App() {
             <ExternalRedirect url="https://play.google.com/store/apps/details?id=com.loveakot.android" />
           }
         />
-        <Route path="/open" element={<DeepLink />} />
-        <Route path="/gupshup" element={<DeepLink />} />
-        <Route path="/news" element={<DeepLink />} />
-        <Route path="/business" element={<DeepLink />} />
+        <Route path="/open/*" element={<DeepLink />} />
+        <Route path="/gupshup/*" element={<DeepLink />} />
+        <Route path="/news/*" element={<DeepLink />} />
+        <Route path="/business/*" element={<DeepLink />} />
         <Route path="/terms-and-conditions" element={<TNC />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/safety-standards" element={<SafetyStandards />} />
